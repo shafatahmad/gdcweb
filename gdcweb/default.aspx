@@ -8,11 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://code.jquery.com/ https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/; style-src 'self' https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/ https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/; img-src 'self'; font-src *; report-uri /my_amazing_csp_report_parser">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
      <link href="assets/css/full-slider.css" rel="stylesheet" />
     <link href="assets/css/Footer-with-button-logo.css" rel="stylesheet" />
     <title>Home</title>
-    
 </head>
 <body>
     <form id="form1" runat="server">
