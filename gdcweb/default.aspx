@@ -13,6 +13,88 @@
      <link href="assets/css/full-slider.css" rel="stylesheet" />
     <link href="assets/css/Footer-with-button-logo.css" rel="stylesheet" />
     <title>Home</title>
+    <!--added style to navbar-->
+    <style>
+        .navbar-default {
+            background-color: #70CC14;
+        }
+
+            .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+                background-color: #053FFF;
+            }
+
+            .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+                background-color: #080808;
+            }
+
+        .dropdown-menu {
+            background-color: #FFFFFF;
+        }
+
+            .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+                background-color: #428BCA;
+            }
+
+        .navbar-default {
+            background-image: none;
+        }
+
+        .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+            background-image: none;
+        }
+
+        .navbar-default {
+            border-color: #FFFFFF;
+        }
+
+            .navbar-default .navbar-brand {
+                color: #000000;
+            }
+
+                .navbar-default .navbar-brand:hover {
+                    color: #FFFFFF;
+                }
+
+            .navbar-default .navbar-nav > li > a {
+                color: #000000;
+            }
+
+                .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+                    color: #FFFFFF;
+                }
+
+            .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+                color: #FFFFFF;
+            }
+
+                .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+                    color: #FFFFFF;
+                }
+
+        .dropdown-menu > li > a {
+            color: #333333;
+        }
+
+            .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+                color: #FFFFFF;
+            }
+
+        .navbar-default .navbar-nav > .dropdown > a .caret {
+            border-top-color: #0A0A0A;
+        }
+
+        .navbar-default .navbar-nav > .dropdown > a:hover .caret {
+            border-top-color: #FFFFFF;
+        }
+
+        .navbar-default .navbar-nav > .dropdown > a .caret {
+            border-bottom-color: #0A0A0A;
+        }
+
+        .navbar-default .navbar-nav > .dropdown > a:hover .caret {
+            border-bottom-color: #FFFFFF;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
