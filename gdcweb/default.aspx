@@ -131,9 +131,9 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Item 1</a></li>
-            <li><a href="#">Item 2</a></li>
-            <li><a href="#">Item 3</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-education"></span> Item 1</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-education"></span> Item 2</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-education"></span> Item 3</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
